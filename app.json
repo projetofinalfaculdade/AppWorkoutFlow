@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "WorkoutFlow",
+    "slug": "WorkoutFlow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "permissions": [
+      "LOCATION"
+    ]
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.netoteste33.WorkoutFlow"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6f100b24-ccaf-476e-b5bd-02cba80a32da"
+      }
+    }
+  }
+}
